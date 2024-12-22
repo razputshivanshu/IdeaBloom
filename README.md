@@ -15,4 +15,6 @@ Blog website
 1.To enhance the performance I have uploaded all the files on imagekit media library inspite of local storage.
 2. We have used lazy loading along with that we have used  lqip={{ active: true, quality: 20 }} blurry image loader
 
-51:15
+
+
+1:41:24

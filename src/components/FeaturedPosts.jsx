@@ -10,7 +10,8 @@ const FeaturedPosts = () => {
         {/* Image */}
         <Image 
           src="featured1.jpeg" 
-          className="rounded-3xl object-cover w-full h-64 lg:h-96" 
+          className="rounded-3xl object-cover w-full h-64 lg:h-96"
+           w="895"
         />
         {/* Image details */}
         <div className="flex items-center gap-4">
@@ -32,10 +33,13 @@ const FeaturedPosts = () => {
       <div className="w-full lg:w-1/2 flex flex-col gap-6">
         {/* Second Post */}
         <div className="flex gap-4">
+        <div className='w-1/3 aspect-video'>
           <Image 
             src="featured2.jpeg" 
-            className="rounded-3xl object-cover w-1/3 h-32 lg:h-40" 
+            className="rounded-3xl object-cover w-full h-full"
+            w="298"  
           />
+          </div>
           <div className="w-2/3">
             {/* Details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-2">
@@ -56,10 +60,13 @@ const FeaturedPosts = () => {
 
         {/* Third Post */}
         <div className="flex gap-4">
+        <div className='w-1/3 aspect-video'>
           <Image 
             src="featured3.jpeg" 
-            className="rounded-3xl object-cover w-1/3 h-32 lg:h-40" 
+            className="rounded-3xl object-cover w-full h-full"
+            w="298"  
           />
+          </div>
           <div className="w-2/3">
             {/* Details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-2">
@@ -80,10 +87,13 @@ const FeaturedPosts = () => {
 
         {/* Fourth Post */}
         <div className="flex gap-4">
+        <div className='w-1/3 aspect-video'>
           <Image 
             src="featured4.jpeg" 
-            className="rounded-3xl object-cover w-1/3 h-32 lg:h-40" 
+            className="rounded-3xl object-cover w-full h-full"
+            w="298"  
           />
+          </div>
           <div className="w-2/3">
             {/* Details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-2">
